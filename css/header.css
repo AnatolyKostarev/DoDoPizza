@@ -183,3 +183,69 @@ header {
 .header-menu__btn:focus {
     background: rgb(204, 86, 2);
 }
+
+@media screen and (min-width: 992px) and (max-width: 1159px) {
+    .header-container {
+        width: 960px;
+    }
+
+    .header-menu {
+        width: 960px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header-container {
+        width: 720px;
+    }
+
+    .header-menu {
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    header {
+        margin: 12px 0 21px 0;
+    }
+
+    .header-container {
+        width: 540px;
+    }
+
+    .header-contact,
+    .header-text,
+    .header-menu  {
+        display: none;
+    }
+
+    .header-desc {
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+
+    header {
+        margin: 12px 0 21px 0;
+    }
+
+    .header-container {
+        width: 100%;
+    }
+
+    .header-contact,
+    .header-text,
+    .header-menu  {
+        display: none;
+    }
+
+    .header-logo {
+        margin-left: 16px;
+    }
+
+    .header-desc {
+        bottom: 0;
+    }
+}
