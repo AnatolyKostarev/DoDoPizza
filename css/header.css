@@ -1,12 +1,13 @@
 header {
+    margin: 25px 0 30px 0;
     background: var(--primary-bcg-color);
 }
 
 .header-container {
+    margin: 0 auto 41px;
     display: flex;
     justify-content: space-between;
     width: 1160px;
-    margin: 25px auto 30px auto;
 }
 
 .header-logo {
