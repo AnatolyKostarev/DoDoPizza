@@ -1,0 +1,32 @@
+.promo {
+    background: var(--primary-bcg-color);
+}
+
+.promo-pic {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.promo-pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 1099px) {
+    .promo-pic {
+        padding: 0 16px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .promo-pic {
+        padding: 0 16px;
+        width: 100%;
+    }
+
+    .header-container {
+        margin: 0;
+    }
+}
