@@ -1,6 +1,7 @@
 .new-products {
     margin: 70px 0;
     background: var(--primary-bcg-color);
+    /* display: none; */
 }
 
 .new-products__title {
