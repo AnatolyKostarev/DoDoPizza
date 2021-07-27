@@ -175,7 +175,7 @@ footer {
         padding: 0 0 20px 0;
         justify-content: flex-start;
         width: 90%;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .footer-copy__year {
