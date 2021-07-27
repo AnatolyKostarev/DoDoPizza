@@ -1,0 +1,33 @@
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+  
+.footer-total {
+    text-align: left;
+    width: 299px;
+}
+  
+.footer-total__item {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    margin: 0;
+    padding: 0;
+}
+  
+.footer-total__text {
+    color: hsla(0, 0%, 100%, 0.7);
+    line-height: 22px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+}

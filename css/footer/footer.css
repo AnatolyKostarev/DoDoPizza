@@ -1,0 +1,59 @@
+@import 'footer-menu.css';
+@import 'footer-contacts.css';
+@import 'footer-info.css';
+@import 'footer-copy.css';
+
+
+footer {
+    margin: 0;
+    background: rgba(70, 76, 85, 1);
+}
+
+.footer-menu__box {
+    display: flex;
+    margin-bottom: 93px;
+    padding-top: 50px;
+}
+
+.footer__menu {
+    flex-basis: 66.6666%;
+}
+
+.footer__contacts {
+    flex-basis: 33.3333%;
+}
+
+.footer__info {
+    width:  66.6666%;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-menu__box {
+        flex-direction: column;
+    }
+
+    .footer-menu {
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    .footer-contacts__img__container {
+        justify-content: center;
+    }
+
+    .footer__contacts {
+        text-align: center;
+    }
+
+    .footer__info {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer-menu__box {
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+}
