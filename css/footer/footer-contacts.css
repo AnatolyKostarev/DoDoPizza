@@ -1,18 +1,18 @@
-.footer-contacts{
+.footer-contacts {
     text-align: right;
     color: #ffffff;
 }
 
 .footer-contacts__number {
     margin-bottom: 6px;
-    text-decoration:none;
-    color:#fff;
     font-weight: 600;
     font-size: 26px;
     line-height: 26px;
+    text-decoration:none;
+    color:#fff;
 }
 
-.footer-contacts__call{
+.footer-contacts__call {
     margin-bottom: 26px;
     font-size: 15px;
     line-height: 20px;
@@ -20,22 +20,21 @@
     color:#fff;
 }
 
-.footer-contacts__mail{
-    text-decoration:none;
-    color: #fff;
+.footer-contacts__mail {
+    margin-top: 26px;
     font-size: 15px;
     line-height: 20px;
     text-align: right;
+    text-decoration:none;
+    color: #fff;
     opacity: 0.9;
-    margin-top: 26px;
-
 }
 
-.footer-contacts__img{
+.footer-contacts__img {
     width: 155px;
 }
 
-.footer-contacts__img__container{
+.footer-contacts__img__container {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 29px;
