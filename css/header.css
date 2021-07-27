@@ -1,7 +1,6 @@
 header {
     margin: 25px 0 30px 0;
     background: var(--primary-bcg-color);
-    display: none;
 }
 
 .header-container {

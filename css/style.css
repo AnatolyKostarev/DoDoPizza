@@ -1,8 +1,7 @@
 @import 'header.css';
 @import 'promo.css';
+@import './footer/footer.css';
 @import 'newProducts.css';
-@import 'footer-copy.css';
-
 
 
 body {
@@ -11,19 +10,46 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1060px;
+    box-sizing: content-box;
+}
+
 h1,
 h2,
 h3,
 p,
 ul,
 ol,
-li {
+li,
+a,
+img {
     margin: 0;
     padding: 0;
 }
+
 
 :root {
     --primary-bcg-color: #fff;
     --primary-text-color: #000;
     --secondary-text-color: #fff;
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding: 0 13px;
+    }
+}
+
+
+
+
+
+
+header,
+.promo,
+.new-products {
+    /* display: none; */
 }
