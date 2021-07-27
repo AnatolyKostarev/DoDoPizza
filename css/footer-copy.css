@@ -185,7 +185,7 @@ footer {
 
     .footer-copy__info {
         margin: 0;
-        padding: 20px 16px;
+        padding: 20px 16px 30px 16px;
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
