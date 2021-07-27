@@ -1,19 +1,15 @@
 footer {
     margin: 0;
-    padding-bottom: 40px;
     background: rgba(70, 76, 85, 1);
 }
 
 .footer-copy__container {
-    width: 1060px;
     margin: 0 auto;
-    padding: 0 30px;
-    box-sizing: content-box;
+    width: 1060px;
 }
 
 .footer-copy {
-    margin: 0 auto;
-    padding-top: 46px;
+    padding: 46px 0 40px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +19,6 @@ footer {
 .footer-copy__logo {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .footer-copy__year {
@@ -40,7 +35,6 @@ footer {
 .footer-copy__info {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-left: 64px;
 }
 
@@ -68,6 +62,7 @@ footer {
 .footer-copy__socialLinks {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: 95px;
     opacity: 0.7;
 }
@@ -91,7 +86,7 @@ footer {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1099px) {
-    .footer-copy {
+    .footer-copy__container {
         width: 960px;
     }
 
@@ -109,8 +104,12 @@ footer {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1023px) {
-    .footer-copy {
+
+    .footer-copy__container {
         width: 100%;
+    }
+
+    .footer-copy {
         justify-content: space-around;
     }
 
@@ -129,8 +128,12 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .footer-copy {
+
+    .footer-copy__container {
         width: 100%;
+    }
+
+    .footer-copy {
         justify-content: space-around;
     }
 
@@ -151,24 +154,27 @@ footer {
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
     .footer-copy__container {
-        padding: 20px 0 20px 0;
+        width: 90%;
     }
 
     .footer-copy {
-        width: 100%;
+        padding: 20px 0;
         flex-direction: column-reverse;
         justify-content: space-around;
     }
 
     .footer-copy__logo {
+        margin: 0;
+        padding-left: 0;
         justify-content: flex-start;
-        margin-left: 16px;
+        width: 100%;
     }
 
     .footer-copy__socialLinks {
-        margin-bottom: 0 16px 20px;
-        padding-bottom: 20px;
+        margin: 0;
+        padding: 0 0 20px 0;
         justify-content: flex-start;
+        width: 100%;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1)
     }
 
@@ -178,9 +184,11 @@ footer {
     }
 
     .footer-copy__info {
+        margin: 0;
+        padding: 20px 0;
         flex-direction: column;
-        align-items: flex-start;
-        margin: 20px 16px;
+        justify-content: flex-start;
+        width: 100%;
     }
 
     .footer-copy__text {
