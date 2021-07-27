@@ -1,14 +1,23 @@
-.footer-copy__container {
+footer {
     margin: 0;
-    padding: 35px 0;
+    padding-bottom: 40px;
     background: rgba(70, 76, 85, 1);
+}
+
+.footer-copy__container {
+    width: 1060px;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: content-box;
 }
 
 .footer-copy {
     margin: 0 auto;
+    padding-top: 46px;
     display: flex;
     justify-content: space-between;
-    width: 1060px;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-copy__logo {
