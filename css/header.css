@@ -81,7 +81,7 @@ header {
 
 .header-delivery__subtitle::after {
     position: absolute;
-    content: url(/images/header/star-rate.svg);
+    content: url(../img/header/star-rate.svg);
     top: 2px;
     right: 74px;
 }
