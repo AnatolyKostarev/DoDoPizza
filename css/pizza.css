@@ -23,19 +23,16 @@
 .pizza-title {
     margin-bottom: 40px;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 33px;
     letter-spacing: 0em;
     text-align: left;
     color: rgba(0, 0, 0, 1);
-
 }
 
 .pizza-card__title {
     margin: 5px 0 10px;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     line-height: 27px;
     letter-spacing: 0em;
@@ -45,13 +42,10 @@
 
 .pizza-card__subtitle {
     display: block;
-    /* height: 87px; */
     margin-bottom: 30px;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0em;
     text-align: left;
     color: rgba(0, 0, 0, 1);
 }
@@ -70,7 +64,6 @@
     border-radius: 50px;
     outline: none;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 22px;
     text-align: center;
@@ -86,6 +79,7 @@
 
 .pizza-card__btn:focus {
     background: rgb(204, 86, 2);
+    outline: none;
 }
 
 .btn-collect {
