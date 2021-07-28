@@ -1,7 +1,8 @@
 @import 'header.css';
 @import 'promo.css';
-@import './footer/footer.css';
 @import 'newProducts.css';
+@import 'pizza.css';
+@import './footer/footer.css';
 
 
 body {
@@ -48,8 +49,8 @@ img {
 
 
 
-header,
+/* header,
 .promo,
 .new-products {
     display: none;
-}
+} */
