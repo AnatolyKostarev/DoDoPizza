@@ -11,7 +11,7 @@
   }
 
 .footer-menu__name {
-    margin: 0;
+    margin: 0 0 10px 0;
     font-size: 18px;
     font-weight: 600;
     color: var(--secondary-text-color);
@@ -25,6 +25,7 @@
 }
 
 .footer-list__opt {
+    margin-bottom: 10px;
     line-height: 26px;
     font-weight: normal;
     font-size: 18px;
