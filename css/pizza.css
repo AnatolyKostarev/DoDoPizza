@@ -1,8 +1,8 @@
-.pizza {
+.products {
     padding-bottom: 70px;
 }
 
-.pizza-wraper {
+.product-wraper {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -10,17 +10,21 @@
     row-gap: 60px;
 }
 
-.pizza-card {
+.product {
     display: flex;
     flex-direction: column;
     width: 23%;
 }
 
-.pizza-card__pic {
-    margin-left: 22px;
+.product__img {
+    text-align: center;
 }
 
-.pizza-title {
+.product__pic {
+    vertical-align: top;
+}
+
+.product-title {
     margin-bottom: 40px;
     font-size: 24px;
     font-weight: 700;
@@ -30,7 +34,7 @@
     color: rgba(0, 0, 0, 1);
 }
 
-.pizza-card__title {
+.product__title {
     margin: 5px 0 10px;
     font-size: 20px;
     font-weight: 600;
@@ -39,7 +43,7 @@
     color: rgba(0, 0, 0, 1);
 }
 
-.pizza-card__subtitle {
+.product__subtitle {
     display: block;
     margin-bottom: 30px;
     font-size: 14px;
@@ -49,36 +53,11 @@
     color: rgba(0, 0, 0, 1);
 }
 
-.pizza-card__info {
+.product__info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: auto;
-}
-
-.pizza-card__btn {
-    padding: 9px 20px;
-    background: rgba(249, 105, 0, 1);
-    border: 0;
-    border-radius: 50px;
-    outline: none;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 22px;
-    text-align: center;
-    cursor: pointer;
-    color: var(--secondary-text-color);
-    transition: 0.3s;
-}
-
-.pizza-card__btn:hover {
-    background: rgb(231, 97, 0);
-    transition: 0.3s;
-}
-
-.pizza-card__btn:focus {
-    background: rgb(204, 86, 2);
-    outline: none;
 }
 
 .btn-collect {
