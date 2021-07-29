@@ -3,6 +3,7 @@
 @import 'newProducts.css';
 @import 'product.css';
 @import './footer/footer.css';
+@import 'modern-normalize.css';
 
 
 body {
@@ -50,7 +51,8 @@ img {
 
 
 /* header,
-.promo,
-.new-products {
+.slider-box,
+.new-products,
+footer {
     display: none;
 } */
