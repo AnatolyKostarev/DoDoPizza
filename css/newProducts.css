@@ -113,7 +113,17 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .new-products__cards {
-        overflow: clip;
-    }
+
+        .new-products {
+            margin-bottom: 30px;
+        }
+
+        .new-products__cards {
+            overflow-y: auto;
+        }
+
+        .new-products__card {
+            width: 100%;
+        }
+    
 }
