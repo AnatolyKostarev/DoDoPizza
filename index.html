@@ -7,48 +7,49 @@
     <meta name="description" content="ДОДО ПИЦЦА. Сеть пиццерий № 1 в России">
     <title>ДОДО ПИЦЦА</title>
     <link rel="icon" href="./img/header/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <div class="header-logo">
-                <img class="header-pic" src="./img/header/DoDoLogo.svg" alt="Додо Пицца">
-                <img class="header-desc" src="./img/header/Dodopizza.svg" alt="Додо Пицца">
-                <p class="header-text">Сеть пиццерий №1 в России</p>
-            </div>
-            <!-- /.header-logo -->
-            <div class="header-contact">
-                <div class="header-delivery">
-                    <p class="header-delivery__title">Доставка пиццы<span class="header-delivery__geo">Москва</span></p>
-                    <p class="header-delivery__subtitle">34 мин<span class="header-delivery__rate">&bull;</span>4.72</p>
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <div class="header-logo">
+                    <img class="header-pic" src="./img/header/DoDoLogo.svg" alt="Додо Пицца">
+                    <img class="header-desc" src="./img/header/Dodopizza.svg" alt="Додо Пицца">
+                    <p class="header-text">Сеть пиццерий №1 в России</p>
                 </div>
-                <div class="header-phone">
-                    <a href="tel:88003020060" class="header-phone__number">8 800 302-00-60</a>
-                    <p class="header-phone__text">Звонок бесплатный</p>
+                <!-- /.header-logo -->
+                <div class="header-contact">
+                    <div class="header-delivery">
+                        <p class="header-delivery__title">Доставка пиццы<span class="header-delivery__geo">Москва</span></p>
+                        <p class="header-delivery__subtitle">34 мин<span class="header-delivery__rate">&bull;</span>4.72</p>
+                    </div>
+                    <div class="header-phone">
+                        <a href="tel:88003020060" class="header-phone__number">8 800 302-00-60</a>
+                        <p class="header-phone__text">Звонок бесплатный</p>
+                    </div>
                 </div>
+                <!-- /.header-contact -->
             </div>
-            <!-- /.header-contact -->
+            <!-- /.header-container -->
+            <div class="header-menu">
+                <nav class="header-menu__nav">
+                    <ul class="header-menu__list">
+                        <li class="header-menu__item"><a href="#" class="header-menu__link">Пицца</a></li>
+                        <li class="header-menu__item"><a href="#" class="header-menu__link">Комбо</a></li>
+                        <li class="header-menu__item"><a href="#" class="header-menu__link">Закуски</a></li>
+                        <li class="header-menu__item"><a href="#" class="header-menu__link">Десерты</a></li>
+                        <li class="header-menu__item"><a href="#" class="header-menu__link">Напитки</a></li>
+                        <li class="header-menu__item"><a href="#" class="header-menu__link">Другие товары</a></li>
+                    </ul>
+                </nav>
+                <button type='submit' class="button">Корзина</button>
+            </div>
+            <!-- /.header-menu -->
         </div>
-        <!-- /.header-container -->
-        <div class="header-menu">
-            <nav class="header-menu__nav">
-                <ul class="header-menu__list">
-                    <li class="header-menu__item"><a href="#" class="header-menu__link">Пицца</a></li>
-                    <li class="header-menu__item"><a href="#" class="header-menu__link">Комбо</a></li>
-                    <li class="header-menu__item"><a href="#" class="header-menu__link">Закуски</a></li>
-                    <li class="header-menu__item"><a href="#" class="header-menu__link">Десерты</a></li>
-                    <li class="header-menu__item"><a href="#" class="header-menu__link">Напитки</a></li>
-                    <li class="header-menu__item"><a href="#" class="header-menu__link">Другие товары</a></li>
-                </ul>
-            </nav>
-            <button type='submit' class="button">Корзина</button>
-        </div>
-        <!-- /.header-menu -->
     </header>
 
     <main>
@@ -70,7 +71,7 @@
 <!-- Начало блока NEW PRODUCTS -->
 
         <section class="new-products">
-            <div class="new-product__wrapper">
+            <div class="container">
                 <h2 class="new-products__title">Новое и популярное</h2>
                 <div class="new-products__cards">
                     <div class="new-products__card">
@@ -141,7 +142,7 @@
                         <p class="product__subtitle">Пикантная пепперони, моцарелла, томатный соус</p>
                         <div class="product__info">
                             <p class="product__price">от 625 ₽</p>
-                            <button class="button btn-collect" type="submit">Выбрать</button>
+                            <button class="button btn_secondary" type="submit">Выбрать</button>
                         </div>
                     </div>
 
@@ -153,7 +154,7 @@
                         <p class="product__subtitle">Ананасы, брусника, сгущенное молоко</p>
                         <div class="product__info">
                             <p class="product__price">от 625 ₽</p>
-                            <button class="button btn-collect" type="submit">Выбрать</button>
+                            <button class="button btn_secondary" type="submit">Выбрать</button>
                         </div>  
                     </div>
 
@@ -165,7 +166,7 @@
                         <p class="product__subtitle">Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы</p>
                         <div class="product__info">
                             <p class="product__price">от 625 ₽</p>
-                            <button class="button btn-collect" type="submit">Выбрать</button>
+                            <button class="button btn_secondary" type="submit">Выбрать</button>
                         </div>
                     </div>
 
@@ -177,7 +178,7 @@
                         <p class="product__subtitle">Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо</p>
                         <div class="product__info">
                             <p class="product__price">от 445 ₽</p>
-                            <button class="button btn-collect" type="submit">Выбрать</button>
+                            <button class="button btn_secondary" type="submit">Выбрать</button>
                         </div>
                     </div>
 
@@ -189,7 +190,7 @@
                         <p class="product__subtitle">Лосось, томаты черри, соус песто, моцарелла, соус альфредо</p>
                         <div class="product__info">
                             <p class="product__price">от 495 ₽</p>
-                            <button class="button btn-collect" type="submit">Выбрать</button>
+                            <button class="button btn_secondary" type="submit">Выбрать</button>
                         </div>
                     </div>
 
@@ -201,7 +202,7 @@
                         <p class="product__subtitle">Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо</p>
                         <div class="product__info">
                             <p class="product__price">от 245 ₽</p>
-                            <button class="button btn-collect" type="submit">Выбрать</button>
+                            <button class="button btn_secondary" type="submit">Выбрать</button>
                         </div>
                     </div>
 
@@ -213,7 +214,7 @@
                         <p class="product__subtitle">Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус</p>
                         <div class="product__info">
                             <p class="product__price">от 245 ₽</p>
-                            <button class="button btn-collect" type="submit">Выбрать</button>
+                            <button class="button btn_secondary" type="submit">Выбрать</button>
                         </div>
                     </div>
 
@@ -221,7 +222,7 @@
             </div>
         </section>
 
-<!-- Начало блока PRODUCTS -->
+<!-- Конец блока PRODUCTS -->
     </main>
 
     <footer>
