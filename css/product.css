@@ -60,13 +60,24 @@
     margin-top: auto;
 }
 
-.btn-collect {
+.btn_secondary {
     background: rgba(255, 240, 230, 1);
     color: rgba(209, 87, 0, 1);
     transition: 0.3s;
 }
 
-.btn-collect:hover {
+.btn_secondary:hover {
     background: rgb(255, 227, 209);
     transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .product-wraper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product {
+        flex-direction: row;
+    }
 }
