@@ -27,7 +27,6 @@
     left: 58px;
     bottom: 12px;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     line-height: 16px;
     text-align: left;
@@ -39,8 +38,6 @@
 }
 
 .header-delivery {
-    /* margin-right: 59px;
-    width: 211px; */
     display: none;
 }
 
@@ -51,7 +48,6 @@
 .header-delivery__title {
     margin-bottom: 1px;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
     line-height: 25px;
     text-align: left;
@@ -63,7 +59,6 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 25px;
-    letter-spacing: 0em;
     text-align: left;
     color: rgba(249, 105, 0, 1);
 }
@@ -71,10 +66,8 @@
 .header-delivery__subtitle {
     position: relative;
     font-size: 15px;
-    font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--primary-text-color);
 }
@@ -90,10 +83,8 @@
     margin-left: 12px;
     margin-right: 12px;
     font-size: 15px;
-    font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--primary-text-color);
 }
@@ -107,7 +98,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
-    letter-spacing: 0em;
     text-align: left;
     text-decoration: none;
     color: var(--primary-text-color);
