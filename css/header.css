@@ -134,12 +134,11 @@
 
 .header-menu__link {
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 19px;
     text-align: left;
-    color: var(--primary-text-color);
     text-decoration: none;
+    color: var(--primary-text-color);
     transition: 0.3s;
 }
 
@@ -155,7 +154,6 @@
     border-radius: 50px;
     outline: none;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 22px;
     text-align: center;
