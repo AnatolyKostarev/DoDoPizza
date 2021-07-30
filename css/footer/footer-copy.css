@@ -112,7 +112,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
     .footer-copy__container {
         width: 100%;
