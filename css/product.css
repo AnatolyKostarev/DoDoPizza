@@ -49,6 +49,7 @@
     font-weight: 600;
     line-height: 19px;
     text-align: center;
+    text-decoration: none;
     color: rgba(70, 76, 85, 1);
     background: rgba(243, 243, 247, 1);
 }
