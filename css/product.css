@@ -128,7 +128,7 @@
     display: none;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     .product-wraper {
         grid-template-columns: 1fr 1fr;
         gap: 60px 20px;
@@ -162,12 +162,12 @@
 
     .product {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas: 
             "image description"
             "image description"
             "image price";
-        padding: 16px 10px 16px 0;
+        padding: 12px 10px 12px 0;
         border-bottom: 1px solid #f3f3f7;
     }
 
@@ -183,6 +183,7 @@
         grid-area: image;
         align-self: flex-start;
         margin-right: 7px;
+        text-align: center;
     }
 
     .product-description {
