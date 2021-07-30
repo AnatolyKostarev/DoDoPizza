@@ -51,7 +51,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .footer-menu__box {
         padding-top: 20px;
         margin-bottom: 0;
