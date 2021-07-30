@@ -186,7 +186,7 @@
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
-    header {
+    .header {
         margin: 12px 0 21px 0;
     }
 
@@ -207,7 +207,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 575px) {
 
-    header {
+    .header {
         margin: 12px 0 21px 0;
     }
 
