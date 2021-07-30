@@ -222,10 +222,16 @@
     }
 
     .header-logo {
-        margin-left: 16px;
+        justify-content: flex-start;
+    }
+
+    .header-pic {
+        width: 23px;
     }
 
     .header-desc {
+        margin-left: 9px;
+        width: 125px;
         bottom: 0;
     }
 }
