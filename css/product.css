@@ -41,7 +41,7 @@
     list-style: none;
 }
 
-.btn_disable {
+.btn_mobile {
     padding: 6px 15px;
     border: 0;
     border-radius: 50px;
@@ -54,12 +54,12 @@
     background: rgba(243, 243, 247, 1);
 }
 
-.btn_disable:hover {
+.btn_mobile:hover {
     background: rgba(255, 240, 230, 1);
     color: rgba(209, 87, 0, 1);
 }
 
-.btn_disable:focus {
+.btn_mobile:focus {
     background: rgb(253, 231, 216);
     color: rgba(209, 87, 0, 1);
     outline: none;
