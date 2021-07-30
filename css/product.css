@@ -98,7 +98,7 @@
     font-weight: 400;
     line-height: 19px;
     text-align: left;
-    color: rgba(0, 0, 0, 1);
+    color: rgba(115, 121, 140, 1);
 }
 
 .product__info {
@@ -106,6 +106,16 @@
     justify-content: space-between;
     align-items: center;
     margin-top: auto;
+}
+
+.product__price {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+
 }
 
 .btn_secondary {
@@ -162,7 +172,7 @@
 
     .product {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 42% 58%;
         grid-template-areas: 
             "image description"
             "image description"
