@@ -14,10 +14,8 @@
 .footer-copy__year {
     margin-left: 13px;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 22px;
-    letter-spacing: 0em;
     text-align: left;
     color: rgba(199, 200, 203, 1);
 }
@@ -30,10 +28,8 @@
 
 .footer-copy__text {
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 22px;
-    letter-spacing: 0em;
     text-align: left;
     text-decoration: none;
     color: rgba(199, 200, 203, 1);
