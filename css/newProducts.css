@@ -77,11 +77,6 @@
     .new-products__card {
         padding: 0;
     }
-
-    /* .new-products__name,
-    .new-products__price {
-        white-space: nowrap;
-    } */
 }    
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
