@@ -43,6 +43,7 @@ footer {
     }
 
     .footer__contacts {
+        margin-left: 0;
         text-align: center;
     }
 
@@ -55,5 +56,9 @@ footer {
     .footer-menu__box {
         padding-top: 20px;
         margin-bottom: 0;
+    }
+
+    .footer__contacts {
+        margin-left: 0;
     }
 }
