@@ -1,0 +1,154 @@
+.promo {
+    padding-bottom: 70px;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.promo-title {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+}
+
+.promo-wraper {
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px 20px;
+}
+
+.promo-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo__img {
+    text-align: center;
+}
+
+.promo__pic {
+    vertical-align: top;
+}
+
+.promo-description__title {
+    margin: 5px 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+}
+
+.promo-description__subtitle {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(115, 121, 140, 1);
+}
+
+.promo__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.promo__price {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .promo-wraper {
+        grid-template-columns: 1fr 1fr;
+        gap: 60px 20px;
+    }
+
+    .promo {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .promo {
+        padding-bottom: 30px;
+    }
+
+    .promo-title {
+        margin-bottom: 20px;
+    }
+
+    .promo-wraper {
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+
+    .promo-card {
+        display: grid;
+        grid-template-columns: 42% 58%;
+        grid-template-areas: 
+            "image description"
+            "image description"
+            "image price";
+        padding: 12px 10px 12px 0;
+        border-bottom: 1px solid #f3f3f7;
+    }
+
+    .promo-card:nth-last-child(-n+3) {
+        display: none;
+    }
+
+    .promo-card:nth-child(5) {
+        border: 0;
+    }
+
+    .promo__img {
+        grid-area: image;
+        align-self: flex-start;
+        margin-right: 7px;
+        text-align: center;
+    }
+
+    .promo-description {
+        grid-area: description;
+    }
+
+    .price_button {
+        grid-area: price;
+    }
+
+    .promo__pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .promo-description__title {
+        margin: 0 0 4px 0;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .promo-description__subtitle {
+        margin-bottom: 8px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .promo__price {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .price_button {
+        display: block;
+    }
+}
