@@ -1,9 +1,11 @@
+@import 'modern-normalize.css';
 @import 'header.css';
 @import 'slider.css';
 @import 'newProducts.css';
 @import 'product.css';
+@import 'promo.css';
 @import './footer/footer.css';
-@import 'modern-normalize.css';
+
 
 
 body {
