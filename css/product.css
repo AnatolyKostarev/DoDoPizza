@@ -148,6 +148,10 @@
 
 @media (max-width: 767px) {
 
+    .products {
+        padding-bottom: 30px;
+    }
+
     .products-title {
         display: none;
     }
