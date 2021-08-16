@@ -8,6 +8,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.55);
     z-index: 115;
+    /* display: none; */
 }
 
 .popup__modal {
@@ -82,26 +83,48 @@
 
 .popup__size {
     margin-bottom: 10px;
-    padding: 8px 1px;
+    padding: 2px 0;
     display: flex;
     justify-content: space-around;
-    max-width: 320px;
+    min-width: 320px;
     background: #F3F3F7;
     border: 0;
     border-radius: 100px;
     cursor: pointer;
 }
 
-.btnn {
-    padding: 5px 24px;
+.popup__size_btn {
+    display: block;
+    padding: 5px 25px 7px;
+    border: 0;
+    border-radius: 100px;
+    background: #F3F3F7;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* .popup__composition_btn {
+    padding: 5px 46px 7px;
+} */
+
+.item.active {
+	background: rgba(255, 255, 255, 1);
 }
 
 input[type="radio"] {
-    display: none;
+	display: none;
 }
-
-input[type="radio"]:checked {
+input[type="radio"]:checked + .popup__size_btn {
 	background: rgba(255, 255, 255, 1);
     box-shadow: 0px 3px 15px rgba(6, 5, 50, 0.05);
-    border-radius: 100px;
+}
+
+.popup__action_title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
 }

@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll("popup__size");
+const buttons = document.querySelectorAll("popup__size popup__size_btn");
 
 const handleClick = (e) => {
   const currentItem = e.target.closest(".item");
