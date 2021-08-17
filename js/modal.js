@@ -1,4 +1,7 @@
 const buttons = document.querySelectorAll("popup__size popup__size_btn");
+const buttons1 = document.querySelectorAll(
+  "popup__composition popup__composition_btn"
+);
 
 const handleClick = (e) => {
   const currentItem = e.target.closest(".item");
@@ -12,5 +15,20 @@ const handleClick = (e) => {
 };
 
 buttons.forEach((button) => {
+  button.addEventListener("click", handleClick);
+});
+
+const handleClick1 = (e) => {
+  const currentItem = e.target.closest(".item1");
+  const isActive = currentItem.classList.contains("active");
+
+  buttons1.forEach((button) =>
+    button.closest(".item1").classList.remove("active")
+  );
+
+  if (!isActive) currentItem.classList.add("active");
+};
+
+buttons1.forEach((button) => {
   button.addEventListener("click", handleClick);
 });
