@@ -1,5 +1,5 @@
 .popup {
-    display: block;
+    display: flex;
     position: fixed;
     margin: 0;
     padding: 0;
@@ -12,16 +12,15 @@
 }
 
 .popup__modal {
+    margin: auto;
     display: grid;
     grid-template-columns: 59% 41%;
-    position: absolute;
-    top: 151px;
-    left: calc(50% - 460px);
-    width: 920px;
+    max-width: 920px;
     height: 610px;
     box-shadow: 0px 6px 55px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     background: rgba(255, 255, 255, 1);
+    /* overflow: scroll; */
 }
 
 .popup__img {
@@ -87,7 +86,7 @@
     padding: 2px 0;
     display: flex;
     justify-content: space-around;
-    min-width: 320px;
+    /* min-width: 320px; */
     background: #F3F3F7;
     border: 0;
     border-radius: 100px;
@@ -109,7 +108,7 @@
 }
 
 .popup__composition_btn {
-    padding: 5px 46px 7px;
+    padding: 5px 47px 7px;
 }
 
 .item.active {
@@ -135,6 +134,7 @@ input[type="radio"]:checked + .popup__composition_btn {
 }
 
 .popup__action_title {
+    margin-bottom: 11px;
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
