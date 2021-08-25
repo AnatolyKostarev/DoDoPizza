@@ -20,7 +20,7 @@
     box-shadow: 0px 6px 55px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     background: rgba(255, 255, 255, 1);
-    /* overflow: scroll; */
+    overflow: auto;
 }
 
 .popup__img {
@@ -86,7 +86,7 @@
     padding: 2px 0;
     display: flex;
     justify-content: space-around;
-    /* min-width: 320px; */
+    min-width: 320px;
     background: #F3F3F7;
     border: 0;
     border-radius: 100px;
@@ -112,10 +112,6 @@
 }
 
 .item.active {
-	background: rgba(255, 255, 255, 1);
-}
-
-.item1.active {
 	background: rgba(255, 255, 255, 1);
 }
 
@@ -145,4 +141,43 @@ input[type="radio"]:checked + .popup__composition_btn {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+}
+
+.popup__adds_card {
+    padding-bottom: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(6, 5, 50, 0.05);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.popup__adds_card:hover {
+    border: 1px solid rgba(249, 105, 0, 1);
+    border-radius: 12px;
+}
+
+.popup__adds_card:focus {
+    border: 1px solid rgba(249, 105, 0, 1);
+    border-radius: 12px;
+}
+.popup__adds_img {
+    text-align: center;
+}
+
+.popup__adds_text {
+    margin: 0 auto;
+    width: 81px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
+.popup__adds_price {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
 }
