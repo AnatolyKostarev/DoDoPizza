@@ -40,7 +40,6 @@
     />
   </head>
   <body>
-    <script src="./js/modal.js" defer></script>
     <header class="header">
       <div class="container">
         <div class="header-container">
@@ -1416,26 +1415,50 @@
             <p class="popup__action_title">Добавить в пиццу</p>
 
             <div class="popup__adds">
-              <div class="popup__adds_card">
+              <button type="submit" class="popup__adds_card">
                 <div class="popup__adds_img">
                   <img src="./img/modal/icon-cheese.png" alt="" />
                 </div>
-              </div>
-              <div class="popup__adds_img">
-                <img src="./img/modal/icon-mushroom.png" alt="" />
-              </div>
-              <div class="popup__adds_img">
-                <img src="./img/modal/icon-chiken.png" alt="" />
-              </div>
-              <div class="popup__adds_img">
-                <img src="./img/modal/icon-tofu.png" alt="" />
-              </div>
-              <div class="popup__adds_img">
-                <img src="./img/modal/icon-greentomato.png" alt="" />
-              </div>
-              <div class="popup__adds_img">
-                <img src="./img/modal/icon-turkey.png" alt="" />
-              </div>
+                <p class="popup__adds_text">Сырный бортик</p>
+                <p class="popup__adds_price">599 ₽</p>
+              </button>
+              <button type="submit" class="popup__adds_card">
+                <div class="popup__adds_img">
+                  <img src="./img/modal/icon-mushroom.png" alt="" />
+                </div>
+                <div class="popupo__adds_desc">
+                  <p class="popup__adds_text">Шампиньоны</p>
+                  <p class="popup__adds_price">39 ₽</p>
+                </div>
+              </button>
+              <button type="submit" class="popup__adds_card">
+                <div class="popup__adds_img">
+                  <img src="./img/modal/icon-chiken.png" alt="" />
+                </div>
+                <p class="popup__adds_text">Цыпленок</p>
+                <p class="popup__adds_price">59 ₽</p>
+              </button>
+              <button type="submit" class="popup__adds_card">
+                <div class="popup__adds_img">
+                  <img src="./img/modal/icon-tofu.png" alt="" />
+                </div>
+                <p class="popup__adds_text">Брынза</p>
+                <p class="popup__adds_price">59 ₽</p>
+              </button>
+              <button type="submit" class="popup__adds_card">
+                <div class="popup__adds_img">
+                  <img src="./img/modal/icon-greentomato.png" alt="" />
+                </div>
+                <p class="popup__adds_text">Острый халапенью</p>
+                <p class="popup__adds_price">39 ₽</p>
+              </button>
+              <button type="submit" class="popup__adds_card">
+                <div class="popup__adds_img">
+                  <img src="./img/modal/icon-turkey.png" alt="" />
+                </div>
+                <p class="popup__adds_text">Острый цыпленок</p>
+                <p class="popup__adds_price">39 ₽</p>
+              </button>
             </div>
           </div>
         </div>
@@ -1590,5 +1613,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
