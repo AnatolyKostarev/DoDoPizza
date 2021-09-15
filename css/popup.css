@@ -8,7 +8,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.55);
     z-index: 115;
-    /* display: none; */
+    display: none;
 }
 
 .popup__modal {
@@ -65,7 +65,6 @@
 
 .popup__btn {
     padding: 0;
-    cursor: pointer;
     border: 0;
     font-family: Arial;
     font-size: 13px;
@@ -74,6 +73,7 @@
     text-align: left;
     background: rgba(255, 255, 255, 1);
     color: rgba(77, 77, 77, 1);
+    cursor: pointer;
 }
 
 .popup__btn:nth-child(3) {

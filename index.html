@@ -101,7 +101,7 @@
               </li>
             </ul>
           </nav>
-          <button type="submit" class="button">Корзина</button>
+          <button type="submit" class="button js-header-busket">Корзина</button>
         </div>
         <!-- /.header-menu -->
       </div>
@@ -112,14 +112,14 @@
 
       <section class="slider-box">
         <div class="container">
-          <ul class="slider">
-            <li class="slider__item slider__item_1">
+          <ul class="slider js-slider">
+            <li class="slider__item js-slider-img">
               <img class="slider__img" src="./img/slider/slide-left.png" />
             </li>
-            <li class="slider__item slider__item_2">
+            <li class="slider__item js-slider-img active">
               <img class="slider__img" src="./img/slider/slide-central.png" />
             </li>
-            <li class="slider__item slider__item_3">
+            <li class="slider__item js-slider-img">
               <img class="slider__img" src="./img/slider/slide-reght.png" />
             </li>
           </ul>
@@ -134,7 +134,7 @@
         <div class="container">
           <h2 class="new-products__title">Новое и популярное</h2>
           <div class="new-products__cards">
-            <button class="new-products__card">
+            <button class="new-products__card js-new-product_card">
               <div class="new-products__img">
                 <img src="./img/newProducts/pizza1.png" alt="Цезарь" />
               </div>
@@ -143,7 +143,7 @@
                 <p class="new-products__price">от 445 ₽</p>
               </div>
             </button>
-            <button class="new-products__card">
+            <button class="new-products__card js-new-product_card">
               <div class="new-products__img">
                 <img src="./img/newProducts/pizza2.png" alt="Нежный лосось" />
               </div>
@@ -152,7 +152,7 @@
                 <p class="new-products__price">от 495 ₽</p>
               </div>
             </button>
-            <button class="new-products__card">
+            <button class="new-products__card js-new-product_card">
               <div class="new-products__img">
                 <img src="./img/newProducts/pizza3.png" alt="2 пиццы" />
               </div>
@@ -161,7 +161,7 @@
                 <p class="new-products__price">от 899 ₽</p>
               </div>
             </button>
-            <button class="new-products__card">
+            <button class="new-products__card js-new-product_card">
               <div class="new-products__img">
                 <img src="./img/newProducts/pizza4.png" alt="Карбонара" />
               </div>
@@ -206,9 +206,9 @@
 
       <section class="products">
         <div class="container">
-          <h2 class="products-title">Пицца</h2>
-          <div class="product-wraper">
-            <div class="product">
+          <h2 class="products-title js-product-title">Пицца</h2>
+          <div class="product-wraper js-product-wraper">
+            <div class="product js-product">
               <div class="product__img">
                 <img
                   class="product__pic"
@@ -218,7 +218,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-description">
+              <div class="product-description js-product-desc">
                 <h3 class="product__title">Пицца из половинок</h3>
                 <p class="product__subtitle">
                   Соберите свою пиццу 35 см с двумя разными вкусами
@@ -226,14 +226,19 @@
               </div>
               <div class="product__info">
                 <p class="product__price">от 600 ₽</p>
-                <button class="button" type="submit">Собрать</button>
-                <button class="button price_button" type="submit">
+                <button class="button js-product_buttons" type="submit">
+                  Собрать
+                </button>
+                <button
+                  class="button price_button js-product_buttons"
+                  type="submit"
+                >
                   от 600 ₽
                 </button>
               </div>
             </div>
 
-            <div class="product">
+            <div class="product js-product">
               <div class="product__img">
                 <img
                   class="product__pic"
@@ -243,7 +248,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-description">
+              <div class="product-description js-product-desc">
                 <h3 class="product__title">Пепперони-сердце</h3>
                 <p class="product__subtitle">
                   Пикантная пепперони, моцарелла, томатный соус
@@ -260,7 +265,7 @@
               </div>
             </div>
 
-            <div class="product">
+            <div class="product js-product">
               <div class="product__img">
                 <img
                   class="product__pic"
@@ -270,7 +275,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-description">
+              <div class="product-description js-product-desc">
                 <h3 class="product__title">Пирог-сердце</h3>
                 <p class="product__subtitle">
                   Ананасы, брусника, сгущенное молоко
@@ -287,7 +292,7 @@
               </div>
             </div>
 
-            <div class="product">
+            <div class="product js-product">
               <div class="product__img">
                 <img
                   class="product__pic"
@@ -297,7 +302,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-description">
+              <div class="product-description js-product-desc">
                 <h3 class="product__title">Чиззи чеддер</h3>
                 <p class="product__subtitle">
                   Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус,
@@ -315,7 +320,7 @@
               </div>
             </div>
 
-            <div class="product">
+            <div class="product js-product">
               <div class="product__img">
                 <img
                   class="product__pic"
@@ -325,7 +330,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-description">
+              <div class="product-description js-product-desc">
                 <h3 class="product__title">Цыпленок блю чиз</h3>
                 <p class="product__subtitle">
                   Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо
@@ -342,7 +347,7 @@
               </div>
             </div>
 
-            <div class="product">
+            <div class="product js-product">
               <div class="product__img">
                 <img
                   class="product__pic"
@@ -352,7 +357,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-description">
+              <div class="product-description js-product-desc">
                 <h3 class="product__title">Нежный лосось</h3>
                 <p class="product__subtitle">
                   Лосось, томаты черри, соус песто, моцарелла, соус альфредо
@@ -369,7 +374,7 @@
               </div>
             </div>
 
-            <div class="product">
+            <div class="product js-product">
               <div class="product__img">
                 <img
                   class="product__pic"
@@ -379,7 +384,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-description">
+              <div class="product-description js-product-desc">
                 <h3 class="product__title">Сырная</h3>
                 <p class="product__subtitle">
                   Увеличенная порция моцареллы, сыры чеддер и пармезан, соус
@@ -397,7 +402,7 @@
               </div>
             </div>
 
-            <div class="product">
+            <div class="product js-product">
               <div class="product__img">
                 <img
                   class="product__pic"
@@ -407,7 +412,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-description">
+              <div class="product-description js-product-desc">
                 <h3 class="product__title">Пепперони фреш</h3>
                 <p class="product__subtitle">
                   Пикантная пепперони, увеличенная порция моцареллы, томаты,
@@ -1614,5 +1619,6 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>
